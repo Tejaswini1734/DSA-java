@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class remove_Element {
+public class remove_elements {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
