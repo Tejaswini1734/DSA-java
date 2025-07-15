@@ -1,0 +1,34 @@
+
+public  class stringss{
+    public static void main(String... args) {
+        String a = "overuse of memory";
+        String b = "Dataset";
+        String c = "Data in the warehouse and ";
+        String d = "Dataset";
+        
+             System.out.println(a.length());
+            System.out.println(a.equals(b));
+            System.out.println(a.equalsIgnoreCase(b));
+            System.out.println(a.compareTo(b));
+            System.out.println(a.toLowerCase());
+            System.out.println(b.toUpperCase()+":");
+            System.out.println(b.trim()+":");
+
+            for(String s : a.split("",8)){
+                System.out.println(s);
+            }
+            
+           System.out.println(String.join(a,b,c));
+           System.out.println(String.join(" ",a,b,c));
+           System.out.println(a.concat(b).concat(c));
+           System.out.println(b.matches(c));
+           System.out.println(b.contains(c));
+           System.out.println(b.replace("Data","beta"));
+           System.out.println(c.concat(a));
+           System.out.println(c.contains("and"));
+           System.out.println(b.compareTo(d));
+           System.out.println(d.startsWith("Data"));
+           System.out.println(a.endsWith("mory"));
+           
+    }
+}
